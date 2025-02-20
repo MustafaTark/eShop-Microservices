@@ -1,9 +1,10 @@
+using Ordering.Infrastructure.Data;
 using Ordering.Infrastructure.Data.Extentions;
 
 var builder = WebApplication.CreateBuilder(args);
 
-//builder.Services
-//    .AddInfrastructureServices(builder.Configuration)
+builder.Services
+    .AddInfrastructureServices(builder.Configuration);
 
 
 
